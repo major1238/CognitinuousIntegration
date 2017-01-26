@@ -1,0 +1,11 @@
+node{
+	stage('Preperation'){
+		echo "do setup task here"	
+	}
+    	stage('Test') {
+        	echo "do test task here"
+    	}
+    	stage('Result') {
+        	echo "do test conclusion task here"
+    	}
+}
