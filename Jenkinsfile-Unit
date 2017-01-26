@@ -1,6 +1,6 @@
 node{
 	stage('Preperation'){
-		echo "do setup task here"	
+		build 'ci_unit_test_prep_job'
 	}
     	stage('Test') {
         	echo "do test task here"
