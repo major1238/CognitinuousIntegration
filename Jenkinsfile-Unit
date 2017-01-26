@@ -1,4 +1,4 @@
-# Basic unit test jenkins file
+/* Basic unit test jenkins file*/
 node{
 	stage('Preperation'){
 
